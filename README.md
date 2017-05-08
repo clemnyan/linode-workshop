@@ -77,7 +77,7 @@ vi /etc/ssh/sshd_config
 ```
 
 scrrenshot of the file
-![Add this Linode](/img/config.png)
+![Add this Linode](/img/config1.png)
 
 This is using a text editor called VIM. Its a bit wonky to use. Use the arrow keys to move your cursor to where it says 
 "#Authentication" 
