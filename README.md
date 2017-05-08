@@ -36,7 +36,7 @@ It will ask you to enter a password and ask for some basic user information.
 You can just use the default values for the user information.
 
 screenshot of the user creation part
-
+![Add this Linode](/img/user.png)
 
 ```
 adduser <username> 
@@ -77,6 +77,7 @@ vi /etc/ssh/sshd_config
 ```
 
 scrrenshot of the file
+![Add this Linode](/img/config.png)
 
 This is using a text editor called VIM. Its a bit wonky to use. Use the arrow keys to move your cursor to where it says 
 "#Authentication" 
