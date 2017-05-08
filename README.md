@@ -112,6 +112,8 @@ We're going to be using the apt package manager for this. apt is a package manag
 sudo apt-get update
 sudo apt-get install nginx
 ```
+screenshots of the commmands being run
+![Add this Linode](/img/install.png)
 
 Ngninx comes with a firewall. We need to reconfigure this to allow us to handle requests. 
 Upon installation, Nginx is really kind and configures itself with the firewall "ufw." This means that all we have to do is specify what we want to give Nginx access to. 
@@ -123,6 +125,7 @@ sudo ufw app list
 ```
 
 screen shot of this command being run
+![Add this Linode](/img/firewall.png)
 
 Nginx Full: allows normal unencrypted web traffic and encrypted traffic
 Nginx HTTP: Allows only normal unencrypted web traffic
@@ -133,6 +136,8 @@ So lets only allow normal web traffic
 ```
 sudo ufw allow 'Nginx HTTP'
 ```
+screenhot of command output
+![Add this Linode](/img/sfw.png)
 
 Nginx starts itself after its installed. So it should be running already.
 
@@ -143,7 +148,7 @@ systemctl status nginx
 ```
 
 scrren shot of this command output
-
+![Add this Linode](/img/system.png)
 
 Sweet.
 Now we can go to our website hosted website and see whats up.
